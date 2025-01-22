@@ -662,6 +662,14 @@
         box-shadow: 0 0 15px 5px #f6f6f6;
     }
 
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     .intro4 {
         text-align: center;
         position: absolute;
@@ -728,6 +736,15 @@
 }
 
 @media (max-width: 320px) {
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     body {
         background-color: #00eaff;
     }
@@ -1093,6 +1110,15 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     body {
         background-color: #00eaff;
     }
@@ -1458,6 +1484,15 @@
 }
 
 @media (max-width: 320px) {
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     body {
         background-color: #00eaff;
     }
@@ -1824,6 +1859,15 @@
 }
 
 @media (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     body {
         background-color: #00eaff;
     }
@@ -2189,6 +2233,15 @@
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     body {
         background-color: #00eaff;
     }
@@ -2555,6 +2608,15 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     body {
         background-color: #00eaff;
     }
@@ -2920,6 +2982,15 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     body {
         background-color: #00eaff;
     }
@@ -3286,6 +3357,15 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
     body {
         background-color: #00eaff;
     }
