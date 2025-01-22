@@ -23,7 +23,7 @@ const Projects = () => {
                 <img className="torpedo" src={torpedo} alt="SS of Torpedo" />
             </a>
             <p id="Text" className="des1">My hand at the tried and true snake game! <br /> It taught me the basics of OOP... the hard way.</p>
-            <p id="Text" className="des2">My first "passion" project and attempt to get <br /> out of my comfort zone. Minigames sure are fun!</p>
+            <p id="Text" className="des2">My first "passion" project and <br />attempt to get <br /> out of my comfort zone. <br />Minigames sure are fun!</p>
             <p id="Text" className="des3">My first project working with someone else! It <br /> was to develop my teamwork skills. I worked on it <br /> with my close friend.</p>
 
 
