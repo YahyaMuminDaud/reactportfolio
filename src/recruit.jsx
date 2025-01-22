@@ -45,9 +45,9 @@ const Recruit = () => {
             <button onClick={() => navigate('/projects')} className="Projects" id="button">Projects</button>
             <button onClick={() => navigate('/')} className="Home" id="button">Home</button>
             <h2 id="Text" className="intro2">Hello! <br /> I've got a question.</h2>
-            <p id="Text" className="intro3">If you were a student how would you stand out? <br />If you met me: What could I improve on in standing out? Any tips? <br />If you haven't met me: What is a factor that catches you eye as a recruiter? <br />If you aren't a recruiter: How are you standing out?</p>
+            <p id="Text" className="intro3">If you were a student how would you stand out? <br />If you met me: What could I improve on in standing out? Any tips? <br />If you haven't met me: What is a factor that catches your eye as a recruiter? <br />If you aren't a recruiter: How are you standing out?</p>
             <h2 id="Text" className="intro4">Hello! <br /> I've got a question.</h2>
-            <p id="Text" className="intro5">If you were a student how would you stand out? <br />If you met me: What could I improve on in standing out? Any tips? <br />If you haven't met me: What is a factor that catches you eye as a recruiter? <br />If you aren't a recruiter: How are you standing out?</p>
+            <p id="Text" className="intro5">If you were a student how would you stand out? <br />If you met me: What could I improve on in standing out? Any tips? <br />If you haven't met me: What is a factor that catches your eye as a recruiter? <br />If you aren't a recruiter: How are you standing out?</p>
             <form method="POST">
                 <input className="name" type="text" name="Name" placeholder="Enter Name" value={user.Name} autoComplete="off" required onChange={data} />
                 <input className="email" type="email" name="Email" placeholder="Enter Email" value={user.Email} autoComplete="off" required onChange={data} />
