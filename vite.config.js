@@ -7,7 +7,16 @@ export default defineConfig({
   base: "/reactportfolio/",
   build: {
     rollupOptions: {
-      external: ['react-router-dom'],
-    },
+      external: ['react-router-dom']
+    }
   }
+  , resolve: {
+    alias: {
+      '@components': '/src/components',
+      // other aliases
+    }
+  }
+
 })
+
+
