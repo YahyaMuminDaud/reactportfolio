@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import snakegame from "./assets/snakegame.png";
-import torpedo from "./assets/torpedo.png";
+import leetbot from "./assets/leetbot.png";
 import mingames from "./assets/mingames.png";
 
 const Projects = () => {
@@ -20,11 +20,11 @@ const Projects = () => {
                 <img className="minigames" src={mingames} alt="SS of Minigames" />
             </a>
             <a href="https://github.com/Kamaaldev/TOrpeDO-ChatBot">
-                <img className="torpedo" src={torpedo} alt="SS of Torpedo" />
+                <img className="torpedo" src={leetbot} alt="SS of LeetBot" />
             </a>
             <p id="Text" className="des1">My hand at the tried and true snake game! <br /> It taught me the basics of OOP... the hard way.</p>
-            <p id="Text" className="des2">My first "passion" project and <br />attempt to get <br /> out of my comfort zone. <br />Minigames sure are fun!</p>
-            <p id="Text" className="des3">My first project working with someone else! It <br /> was to develop my teamwork skills. I worked on it <br /> with my close friend.</p>
+            <p id="Text" className="des2">My very first "passion" project. <br />I have never made anything before <br />so it was my first step into the real world.</p>
+            <p id="Text" className="des3">The biggest project I have ever worked on. <br />This is a large project started by a friend of mine <br />and I sure am glad to be apart of it</p>
 
 
         </>
