@@ -6,18 +6,19 @@ on:
       - main
 
 jobs:
-  build:
-    name: Build
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4  # Updated to v4
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4  # Updated to v4
+        uses: actions/setup-node@v4
         with:
-          node-version: 18  # Set Node.js version
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
@@ -25,31 +26,9 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Upload production-ready build files
-        uses: actions/upload-artifact@v4  # Updated to v4
-        with:
-          name: production-files
-          path: ./build  # React outputs to 'build', not 'dist'
-
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4  # Updated to v4
-
-      - name: Download artifact
-        uses: actions/download-artifact@v4  # Updated to v4
-        with:
-          name: production-files
-          path: ./build  # React build directory
-
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4  # Updated to v4
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build  # Make sure this points to the build folder
-          publish_branch: gh-pages  # Ensure deployment to gh-pages branch
+          publish_dir: ./build
+          publish_branch: gh-pages
