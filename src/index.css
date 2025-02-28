@@ -493,7 +493,7 @@
     .hook {
         position: absolute;
         font-size: 34px;
-        right: 50px;
+        right: 20px;
         top: 125px;
     }
 
@@ -527,21 +527,21 @@
     }
 
     .selfie {
-        height: 260px;
-        width: 220px;
+        height: 240px;
+        width: 200px;
         position: absolute;
-        top: 320px;
-        left: 105px;
+        top: 270px;
+        left: 115px;
         border: 2px black solid;
     }
 
     .background3 {
-        height: 270px;
-        width: 240px;
+        height: 240px;
+        width: 220px;
         background-color: #ffffff;
         position: absolute;
-        top: 314px;
-        left: 95px;
+        top: 264px;
+        left: 105px;
         z-index: -2;
     }
 
@@ -549,8 +549,8 @@
         position: absolute;
         text-align: center;
         font-size: 40px;
-        left: 90px;
-        top: 210px;
+        left: 80px;
+        top: 170px;
     }
 
     .blab2 {
@@ -558,7 +558,7 @@
         position: absolute;
         font-size: 14px;
         left: 30px;
-        top: 600px;
+        top: 520px;
     }
 
     .blab3 {
@@ -566,7 +566,7 @@
         position: absolute;
         font-size: 14px;
         left: 30px;
-        top: 690px;
+        top: 610px;
     }
 
     .snake {
@@ -590,7 +590,7 @@
         height: 130px;
         width: 190px;
         position: absolute;
-        bottom: 100px;
+        bottom: 30px;
         left: 115px;
         border: 2px solid #ffffff;
         transition: 1s;
@@ -608,7 +608,7 @@
         height: 130px;
         width: 190px;
         position: absolute;
-        bottom: 380px;
+        bottom: 240px;
         left: 115px;
         border: 2px solid #ffffff;
         transition: 1s;
@@ -634,7 +634,7 @@
         position: absolute;
         font-size: 15px;
         left: 90px;
-        bottom: 230px;
+        bottom: 160px;
     }
 
     .des3 {
@@ -642,7 +642,7 @@
         position: absolute;
         font-size: 15px;
         left: 70px;
-        bottom: 510px;
+        bottom: 370px;
     }
 
     .social {
@@ -662,13 +662,13 @@
 
     #insta {
         position: absolute;
-        top: 160px;
+        top: 110px;
         right: 70px;
     }
 
     #github {
         position: absolute;
-        top: 160px;
+        top: 110px;
         right: 180px;
     }
 
@@ -677,7 +677,7 @@
         width: 70px;
         transition: 1s;
         position: absolute;
-        top: 160px;
+        top: 110px;
         right: 290px;
     }
 
@@ -694,7 +694,7 @@
         text-align: center;
         position: absolute;
         top: 60px;
-        left: 75px;
+        left: 55px;
     }
 
     .intro5 {
@@ -719,15 +719,15 @@
 
     input[type="text"] {
         position: absolute;
-        left: 90px;
-        bottom: 450px;
+        left: 87px;
+        bottom: 290px;
     }
 
 
     input[type="email"] {
         position: absolute;
-        left: 90px;
-        bottom: 400px;
+        left: 87px;
+        bottom: 240px;
     }
 
     .Answer {
@@ -740,18 +740,19 @@
 
     .Answer2 {
         position: absolute;
-        left: 45px;
-        bottom: 260px;
-        width: 320px;
+        left: 55px;
+        bottom: 100px;
+        width: 280px;
         height: 130px;
     }
 
     .submission2 {
         position: absolute;
-        left: 165px;
-        bottom: 200px;
+        left: 167px;
+        bottom: 50px;
     }
 }
+
 /* Small tablets & large phones (iPhone Pro Max models, iPads in portrait) */
 @media (min-width: 431px) and (max-width: 768px) {
 
