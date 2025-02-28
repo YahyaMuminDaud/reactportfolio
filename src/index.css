@@ -1,1492 +1,6 @@
-@media (min-width: 1024px) and (max-width: 1440px) {
-    body {
-        background-color: #00eaff;
-    }
 
-    .logoname {
-        position: absolute;
-        color: white;
-        left: 60px;
-        top: 15px;
-        text-align: center;
-        font-family: "Acme", serif;
-    }
-
-    .logo {
-        position: absolute;
-        height: 90px;
-        width: 120px;
-        background-color: #00eaff;
-        border: 2px solid white;
-        left: 40px;
-        top: 30px;
-        z-index: -1;
-    }
-
-    .line {
-        position: absolute;
-        height: 3px;
-        width: 1275px;
-        border: 1px solid white;
-        background-color: white;
-        left: 162px;
-        top: 75px;
-    }
-
-    .aboutme {
-        position: absolute;
-        right: 30px;
-        top: 10px;
-    }
-
-    .Projects {
-        position: absolute;
-        right: 170px;
-        top: 10px;
-    }
-
-    .Home {
-        position: absolute;
-        right: 290px;
-        top: 10px;
-    }
-
-    #button {
-        padding: 10px;
-        color: white;
-        background-color: #00eaff;
-        border: 2px solid #00eaff;
-        font-size: 27px;
-        font-family: "Acme", serif;
-        transition: 0.2s;
-    }
-
-    #button:hover {
-        color: #00eaff;
-        background-color: white;
-    }
-
-    .headshot {
-        height: 400px;
-        width: 400px;
-        position: absolute;
-        bottom: 180px;
-        left: 167px;
-    }
-
-    .background1 {
-        height: 400px;
-        width: 400px;
-        background-color: #b3b3b3;
-        border: 2px solid #000000;
-        position: absolute;
-        top: 204px;
-        left: 166px;
-        z-index: -1;
-    }
-
-    .background2 {
-        height: 420px;
-        width: 420px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 195px;
-        left: 150px;
-        z-index: -2;
-    }
-
-    #Text {
-        color: white;
-        font-family: "Acme", serif;
-    }
-
-    .hook {
-        position: absolute;
-        font-size: 50px;
-        right: 200px;
-        top: 220px;
-    }
-
-    .blab {
-        text-align: center;
-        position: absolute;
-        font-size: 25px;
-        right: 165px;
-        top: 320px;
-    }
-
-    .recruit {
-        position: absolute;
-        right: 330px;
-        top: 430px;
-    }
-
-    #button.recruit {
-        padding: 10px;
-        color: white;
-        background-color: #00eaff;
-        border: 2px solid #ffffff;
-        font-size: 27px;
-        font-family: "Acme", serif;
-        transition: 0.2s;
-    }
-
-    #button:hover {
-        color: #00eaff;
-        background-color: white;
-    }
-
-    .selfie {
-        height: 400px;
-        width: 320px;
-        position: absolute;
-        bottom: 170px;
-        right: 167px;
-        border: 2px black solid;
-    }
-
-    .background3 {
-        height: 420px;
-        width: 350px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 197px;
-        right: 155px;
-        z-index: -2;
-    }
-
-    .ahook {
-        position: absolute;
-        font-size: 50px;
-        left: 310px;
-        top: 150px;
-    }
-
-    .blab2 {
-        text-align: center;
-        position: absolute;
-        font-size: 30px;
-        left: 80px;
-        top: 260px;
-    }
-
-    .blab3 {
-        text-align: center;
-        position: absolute;
-        font-size: 30px;
-        left: 80px;
-        top: 450px;
-    }
-
-    .snake {
-        height: 230px;
-        width: 350px;
-        position: absolute;
-        bottom: 270px;
-        left: 90px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .snake:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 245px;
-        width: 365px;
-        transform: translateX(-5px)
-    }
-
-    .minigames {
-        height: 230px;
-        width: 350px;
-        position: absolute;
-        bottom: 270px;
-        right: 530px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .minigames:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 245px;
-        width: 365px;
-        transform: translateX(5px)
-    }
-
-
-    .torpedo {
-        height: 230px;
-        width: 350px;
-        position: absolute;
-        bottom: 270px;
-        right: 90px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .torpedo:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 245px;
-        width: 365px;
-        transform: translateX(5px)
-    }
-
-    .des1 {
-        text-align: center;
-        position: absolute;
-        font-size: 17px;
-        left: 115px;
-        bottom: 190px;
-    }
-
-    .des2 {
-        text-align: center;
-        position: absolute;
-        font-size: 17px;
-        left: 605px;
-        bottom: 170px;
-    }
-
-    .des3 {
-        text-align: center;
-        position: absolute;
-        font-size: 17px;
-        right: 95px;
-        bottom: 170px;
-    }
-
-    .social {
-        height: 70px;
-        width: 70px;
-        transition: 1s;
-    }
-
-    .social:hover {
-        transform: translateY(-5px);
-        height: 80px;
-        width: 80px;
-        border-radius: 25px;
-        box-shadow: 0 0 15px 5px #f6f6f6;
-    }
-
-
-    #insta {
-        position: absolute;
-        top: 120px;
-        right: 167px;
-    }
-
-    #github {
-        position: absolute;
-        top: 120px;
-        right: 260px;
-    }
-
-    #linkedin {
-        height: 70px;
-        width: 70px;
-        transition: 1s;
-        position: absolute;
-        top: 120px;
-        right: 350px;
-    }
-
-    #linkedin:hover {
-        transform: translateY(-5px);
-        height: 80px;
-        width: 80px;
-        box-shadow: 0 0 15px 5px #f6f6f6;
-    }
-
-    .intro2 {
-        text-align: center;
-        position: absolute;
-        font-size: 50px;
-        right: 535px;
-        top: 70px;
-    }
-
-    .intro3 {
-        text-align: center;
-        position: absolute;
-        font-size: 20px;
-        right: 449px;
-        top: 220px;
-    }
-
-    .submission {
-        position: absolute;
-        bottom: 90px;
-        left: 650px;
-    }
-
-    .name {
-        position: absolute;
-        bottom: 410px;
-        left: 610px;
-    }
-
-    .email {
-        position: absolute;
-        bottom: 385px;
-        left: 610px;
-    }
-
-    .Answer {
-        height: 200px;
-        width: 1000px;
-        position: absolute;
-        bottom: 170px;
-        left: 210px;
-
-    }
-
-    .intro4 {
-        display: none;
-    }
-
-    .intro5 {
-        display: none;
-    }
-
-    .Answer2 {
-        display: none;
-    }
-
-    .submission2 {
-        display: none;
-    }
-
-
-
-
-}
-
-@media (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-    body {
-        background-color: #00eaff;
-    }
-
-    .logoname {
-        position: absolute;
-        color: #00eaff;
-        left: 60px;
-        top: 15px;
-        text-align: center;
-        font-family: "Acme", serif;
-    }
-
-    .logo {
-        position: absolute;
-        height: 0px;
-        width: 0px;
-        background-color: #00eaff;
-        border: 2px solid #00eaff;
-        left: 30px;
-        top: 30px;
-        z-index: -1;
-    }
-
-    .line {
-        position: absolute;
-        height: 3px;
-        width: 428px;
-        border: 1px solid white;
-        background-color: white;
-        left: 0px;
-        top: 75px;
-    }
-
-    .aboutme {
-        position: absolute;
-        right: 30px;
-        top: 10px;
-    }
-
-    .Projects {
-        position: absolute;
-        right: 170px;
-        top: 10px;
-    }
-
-    .Home {
-        position: absolute;
-        right: 290px;
-        top: 10px;
-    }
-
-    #button {
-        padding: 10px;
-        color: white;
-        background-color: #00eaff;
-        border: 2px solid #00eaff;
-        font-size: 27px;
-        font-family: "Acme", serif;
-        transition: 0.2s;
-    }
-
-    #button:hover {
-        color: #00eaff;
-        background-color: white;
-    }
-
-    .headshot {
-        height: 160px;
-        width: 160px;
-        position: absolute;
-        top: 224px;
-        left: 135px;
-    }
-
-
-    .background1 {
-        height: 165px;
-        width: 160px;
-        background-color: #b3b3b3;
-        border: 2px solid #000000;
-        position: absolute;
-        top: 217px;
-        left: 132px;
-        z-index: -1;
-    }
-
-    .background2 {
-        height: 175px;
-        width: 175px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 209px;
-        left: 120px;
-        z-index: -2;
-    }
-
-    #Text {
-        color: white;
-        font-family: "Acme", serif;
-    }
-
-    .hook {
-        position: absolute;
-        font-size: 34px;
-        right: 20px;
-        top: 125px;
-    }
-
-    .blab {
-        text-align: center;
-        position: absolute;
-        font-size: 16px;
-        right: 30px;
-        top: 390px;
-    }
-
-    .recruit {
-        position: absolute;
-        right: 95px;
-        top: 470px;
-    }
-
-    #button.recruit {
-        padding: 10px;
-        color: white;
-        background-color: #00eaff;
-        border: 2px solid #ffffff;
-        font-size: 27px;
-        font-family: "Acme", serif;
-        transition: 0.2s;
-    }
-
-    #button:hover {
-        color: #00eaff;
-        background-color: white;
-    }
-
-    .selfie {
-        height: 160px;
-        width: 120px;
-        position: absolute;
-        top: 230px;
-        left: 40px;
-        border: 2px black solid;
-    }
-
-    .background3 {
-        height: 170px;
-        width: 140px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 224px;
-        left: 30px;
-        z-index: -2;
-    }
-
-    .ahook {
-        position: absolute;
-        text-align: center;
-        font-size: 40px;
-        left: 175px;
-        top: 210px;
-    }
-
-    .blab2 {
-        text-align: center;
-        position: absolute;
-        font-size: 14px;
-        left: 30px;
-        top: 420px;
-    }
-
-    .blab3 {
-        text-align: center;
-        position: absolute;
-        font-size: 14px;
-        left: 30px;
-        top: 540px;
-    }
-
-    .snake {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        top: 160px;
-        left: 20px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .snake:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(-5px)
-    }
-
-    .minigames {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        bottom: 70px;
-        left: 10px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .minigames:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(5px)
-    }
-
-
-    .torpedo {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        bottom: 270px;
-        right: 10px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .torpedo:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(5px)
-    }
-
-    .des1 {
-        text-align: center;
-        position: absolute;
-        font-size: 12px;
-        left: 240px;
-        top: 180px;
-    }
-
-    .des2 {
-        text-align: center;
-        position: absolute;
-        font-size: 15px;
-        left: 245px;
-        bottom: 80px;
-    }
-
-    .des3 {
-        text-align: center;
-        position: absolute;
-        font-size: 16px;
-        right: 220px;
-        bottom: 270px;
-    }
-
-    .social {
-        height: 70px;
-        width: 70px;
-        transition: 1s;
-    }
-
-    .social:hover {
-        transform: translateY(-5px);
-        height: 80px;
-        width: 80px;
-        border-radius: 25px;
-        box-shadow: 0 0 15px 5px #f6f6f6;
-    }
-
-
-    #insta {
-        position: absolute;
-        top: 120px;
-        right: 70px;
-    }
-
-    #github {
-        position: absolute;
-        top: 120px;
-        right: 180px;
-    }
-
-    #linkedin {
-        height: 70px;
-        width: 70px;
-        transition: 1s;
-        position: absolute;
-        top: 120px;
-        right: 290px;
-    }
-
-    #linkedin:hover {
-        transform: translateY(-5px);
-        height: 80px;
-        width: 80px;
-        box-shadow: 0 0 15px 5px #f6f6f6;
-    }
-
-    .intro2 {
-        display: none;
-    }
-
-    .intro3 {
-        display: none;
-    }
-
-    .intro4 {
-        text-align: center;
-        position: absolute;
-        top: 100px;
-        left: 115px;
-    }
-
-    .intro5 {
-        font-size: 15px;
-        text-align: center;
-        position: absolute;
-        top: 180px;
-        left: 0px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 220px;
-        padding: 10px;
-        margin: 20px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-size: 16px;
-    }
-
-    input[type="text"] {
-        position: absolute;
-        left: 90px;
-        bottom: 380px;
-    }
-
-
-    input[type="email"] {
-        position: absolute;
-        left: 90px;
-        bottom: 330px;
-    }
-
-    .Answer {
-        display: none;
-    }
-
-    .submission {
-        display: none;
-    }
-
-    .Answer2 {
-        position: absolute;
-        left: 55px;
-        bottom: 190px;
-        width: 290px;
-        height: 130px;
-    }
-
-    .submission2 {
-        position: absolute;
-        left: 165px;
-        bottom: 130px;
-    }
-
-
-}
-
-
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-
-    .intro2 {
-        display: none;
-    }
-
-    .intro3 {
-        display: none;
-    }
-
-    body {
-        background-color: #00eaff;
-    }
-
-    .logoname {
-        position: absolute;
-        color: #00eaff;
-        left: 60px;
-        top: 15px;
-        text-align: center;
-        font-family: "Acme", serif;
-    }
-
-    .logo {
-        position: absolute;
-        height: 0px;
-        width: 0px;
-        background-color: #00eaff;
-        border: 2px solid #00eaff;
-        left: 30px;
-        top: 30px;
-        z-index: -1;
-    }
-
-    .line {
-        position: absolute;
-        height: 3px;
-        width: 428px;
-        border: 1px solid white;
-        background-color: white;
-        left: 0px;
-        top: 75px;
-    }
-
-    .aboutme {
-        position: absolute;
-        right: 30px;
-        top: 10px;
-    }
-
-    .Projects {
-        position: absolute;
-        right: 170px;
-        top: 10px;
-    }
-
-    .Home {
-        position: absolute;
-        right: 290px;
-        top: 10px;
-    }
-
-    #button {
-        padding: 10px;
-        color: white;
-        background-color: #00eaff;
-        border: 2px solid #00eaff;
-        font-size: 27px;
-        font-family: "Acme", serif;
-        transition: 0.2s;
-    }
-
-    #button:hover {
-        color: #00eaff;
-        background-color: white;
-    }
-
-    .headshot {
-        height: 160px;
-        width: 160px;
-        position: absolute;
-        top: 224px;
-        left: 135px;
-    }
-
-
-    .background1 {
-        height: 165px;
-        width: 160px;
-        background-color: #b3b3b3;
-        border: 2px solid #000000;
-        position: absolute;
-        top: 217px;
-        left: 132px;
-        z-index: -1;
-    }
-
-    .background2 {
-        height: 175px;
-        width: 175px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 209px;
-        left: 120px;
-        z-index: -2;
-    }
-
-    #Text {
-        color: white;
-        font-family: "Acme", serif;
-    }
-
-    .hook {
-        position: absolute;
-        font-size: 34px;
-        right: 20px;
-        top: 125px;
-    }
-
-    .blab {
-        text-align: center;
-        position: absolute;
-        font-size: 16px;
-        right: 30px;
-        top: 390px;
-    }
-
-    .recruit {
-        position: absolute;
-        right: 95px;
-        top: 470px;
-    }
-
-    #button.recruit {
-        padding: 10px;
-        color: white;
-        background-color: #00eaff;
-        border: 2px solid #ffffff;
-        font-size: 27px;
-        font-family: "Acme", serif;
-        transition: 0.2s;
-    }
-
-    #button:hover {
-        color: #00eaff;
-        background-color: white;
-    }
-
-    .selfie {
-        height: 160px;
-        width: 120px;
-        position: absolute;
-        top: 230px;
-        left: 40px;
-        border: 2px black solid;
-    }
-
-    .background3 {
-        height: 170px;
-        width: 140px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 224px;
-        left: 30px;
-        z-index: -2;
-    }
-
-    .ahook {
-        position: absolute;
-        text-align: center;
-        font-size: 40px;
-        left: 175px;
-        top: 210px;
-    }
-
-    .blab2 {
-        text-align: center;
-        position: absolute;
-        font-size: 14px;
-        left: 30px;
-        top: 420px;
-    }
-
-    .blab3 {
-        text-align: center;
-        position: absolute;
-        font-size: 14px;
-        left: 30px;
-        top: 540px;
-    }
-
-    .snake {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        top: 160px;
-        left: 20px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .snake:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(-5px)
-    }
-
-    .minigames {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        bottom: 70px;
-        left: 10px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .minigames:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(5px)
-    }
-
-
-    .torpedo {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        bottom: 270px;
-        right: 10px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .torpedo:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(5px)
-    }
-
-    .des1 {
-        text-align: center;
-        position: absolute;
-        font-size: 12px;
-        left: 240px;
-        top: 180px;
-    }
-
-    .des2 {
-        text-align: center;
-        position: absolute;
-        font-size: 15px;
-        left: 245px;
-        bottom: 80px;
-    }
-
-    .des3 {
-        text-align: center;
-        position: absolute;
-        font-size: 16px;
-        right: 220px;
-        bottom: 270px;
-    }
-
-    .social {
-        height: 70px;
-        width: 70px;
-        transition: 1s;
-    }
-
-    .social:hover {
-        transform: translateY(-5px);
-        height: 80px;
-        width: 80px;
-        border-radius: 25px;
-        box-shadow: 0 0 15px 5px #f6f6f6;
-    }
-
-
-    #insta {
-        position: absolute;
-        top: 120px;
-        right: 70px;
-    }
-
-    #github {
-        position: absolute;
-        top: 120px;
-        right: 180px;
-    }
-
-    #linkedin {
-        height: 70px;
-        width: 70px;
-        transition: 1s;
-        position: absolute;
-        top: 120px;
-        right: 290px;
-    }
-
-    #linkedin:hover {
-        transform: translateY(-5px);
-        height: 80px;
-        width: 80px;
-        box-shadow: 0 0 15px 5px #f6f6f6;
-    }
-
-    .intro4 {
-        text-align: center;
-        position: absolute;
-        top: 100px;
-        left: 115px;
-    }
-
-    .intro5 {
-        font-size: 15px;
-        text-align: center;
-        position: absolute;
-        top: 180px;
-        left: 0px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 220px;
-        padding: 10px;
-        margin: 20px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-size: 16px;
-    }
-
-    input[type="text"] {
-        position: absolute;
-        left: 90px;
-        bottom: 380px;
-    }
-
-
-    input[type="email"] {
-        position: absolute;
-        left: 90px;
-        bottom: 330px;
-    }
-
-    .Answer {
-        display: none;
-    }
-
-    .submission {
-        display: none;
-    }
-
-    .Answer2 {
-        position: absolute;
-        left: 55px;
-        bottom: 190px;
-        width: 290px;
-        height: 130px;
-    }
-
-    .submission2 {
-        position: absolute;
-        left: 165px;
-        bottom: 130px;
-    }
-
-}
-
-
-@media (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-
-    .intro2 {
-        display: none;
-    }
-
-    .intro3 {
-        display: none;
-    }
-
-    body {
-        background-color: #00eaff;
-    }
-
-    .logoname {
-        position: absolute;
-        color: #00eaff;
-        left: 60px;
-        top: 15px;
-        text-align: center;
-        font-family: "Acme", serif;
-    }
-
-    .logo {
-        position: absolute;
-        height: 0px;
-        width: 0px;
-        background-color: #00eaff;
-        border: 2px solid #00eaff;
-        left: 30px;
-        top: 30px;
-        z-index: -1;
-    }
-
-    .line {
-        position: absolute;
-        height: 3px;
-        width: 428px;
-        border: 1px solid white;
-        background-color: white;
-        left: 0px;
-        top: 75px;
-    }
-
-    .aboutme {
-        position: absolute;
-        right: 30px;
-        top: 10px;
-    }
-
-    .Projects {
-        position: absolute;
-        right: 170px;
-        top: 10px;
-    }
-
-    .Home {
-        position: absolute;
-        right: 290px;
-        top: 10px;
-    }
-
-    #button {
-        padding: 10px;
-        color: white;
-        background-color: #00eaff;
-        border: 2px solid #00eaff;
-        font-size: 27px;
-        font-family: "Acme", serif;
-        transition: 0.2s;
-    }
-
-    #button:hover {
-        color: #00eaff;
-        background-color: white;
-    }
-
-    .headshot {
-        height: 160px;
-        width: 160px;
-        position: absolute;
-        top: 224px;
-        left: 135px;
-    }
-
-
-    .background1 {
-        height: 165px;
-        width: 160px;
-        background-color: #b3b3b3;
-        border: 2px solid #000000;
-        position: absolute;
-        top: 217px;
-        left: 132px;
-        z-index: -1;
-    }
-
-    .background2 {
-        height: 175px;
-        width: 175px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 209px;
-        left: 120px;
-        z-index: -2;
-    }
-
-    #Text {
-        color: white;
-        font-family: "Acme", serif;
-    }
-
-    .hook {
-        position: absolute;
-        font-size: 34px;
-        right: 20px;
-        top: 125px;
-    }
-
-    .blab {
-        text-align: center;
-        position: absolute;
-        font-size: 16px;
-        right: 30px;
-        top: 390px;
-    }
-
-    .recruit {
-        position: absolute;
-        right: 95px;
-        top: 470px;
-    }
-
-    #button.recruit {
-        padding: 10px;
-        color: white;
-        background-color: #00eaff;
-        border: 2px solid #ffffff;
-        font-size: 27px;
-        font-family: "Acme", serif;
-        transition: 0.2s;
-    }
-
-    #button:hover {
-        color: #00eaff;
-        background-color: white;
-    }
-
-    .selfie {
-        height: 160px;
-        width: 120px;
-        position: absolute;
-        top: 230px;
-        left: 40px;
-        border: 2px black solid;
-    }
-
-    .background3 {
-        height: 170px;
-        width: 140px;
-        background-color: #ffffff;
-        position: absolute;
-        top: 224px;
-        left: 30px;
-        z-index: -2;
-    }
-
-    .ahook {
-        position: absolute;
-        text-align: center;
-        font-size: 40px;
-        left: 175px;
-        top: 210px;
-    }
-
-    .blab2 {
-        text-align: center;
-        position: absolute;
-        font-size: 14px;
-        left: 30px;
-        top: 420px;
-    }
-
-    .blab3 {
-        text-align: center;
-        position: absolute;
-        font-size: 14px;
-        left: 30px;
-        top: 540px;
-    }
-
-    .snake {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        top: 160px;
-        left: 20px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .snake:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(-5px)
-    }
-
-    .minigames {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        bottom: 70px;
-        left: 10px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .minigames:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(5px)
-    }
-
-
-    .torpedo {
-        height: 130px;
-        width: 210px;
-        position: absolute;
-        bottom: 270px;
-        right: 10px;
-        border: 2px solid #ffffff;
-        transition: 1s;
-    }
-
-    .torpedo:hover {
-        box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
-        transform: translateX(5px)
-    }
-
-    .des1 {
-        text-align: center;
-        position: absolute;
-        font-size: 12px;
-        left: 240px;
-        top: 180px;
-    }
-
-    .des2 {
-        text-align: center;
-        position: absolute;
-        font-size: 15px;
-        left: 245px;
-        bottom: 80px;
-    }
-
-    .des3 {
-        text-align: center;
-        position: absolute;
-        font-size: 16px;
-        right: 220px;
-        bottom: 270px;
-    }
-
-    .social {
-        height: 70px;
-        width: 70px;
-        transition: 1s;
-    }
-
-    .social:hover {
-        transform: translateY(-5px);
-        height: 80px;
-        width: 80px;
-        border-radius: 25px;
-        box-shadow: 0 0 15px 5px #f6f6f6;
-    }
-
-
-    #insta {
-        position: absolute;
-        top: 120px;
-        right: 70px;
-    }
-
-    #github {
-        position: absolute;
-        top: 120px;
-        right: 180px;
-    }
-
-    #linkedin {
-        height: 70px;
-        width: 70px;
-        transition: 1s;
-        position: absolute;
-        top: 120px;
-        right: 290px;
-    }
-
-    #linkedin:hover {
-        transform: translateY(-5px);
-        height: 80px;
-        width: 80px;
-        box-shadow: 0 0 15px 5px #f6f6f6;
-    }
-
-    .intro4 {
-        text-align: center;
-        position: absolute;
-        top: 100px;
-        left: 115px;
-    }
-
-    .intro5 {
-        font-size: 15px;
-        text-align: center;
-        position: absolute;
-        top: 180px;
-        left: 0px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 220px;
-        padding: 10px;
-        margin: 20px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-size: 16px;
-    }
-
-    input[type="text"] {
-        position: absolute;
-        left: 90px;
-        bottom: 380px;
-    }
-
-
-    input[type="email"] {
-        position: absolute;
-        left: 90px;
-        bottom: 330px;
-    }
-
-    .Answer {
-        display: none;
-    }
-
-    .submission {
-        display: none;
-    }
-
-    .Answer2 {
-        position: absolute;
-        left: 55px;
-        bottom: 190px;
-        width: 290px;
-        height: 130px;
-    }
-
-    .submission2 {
-        position: absolute;
-        left: 165px;
-        bottom: 130px;
-    }
-
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
+/* Small phones (iPhone 5, 6, 7, SE, etc.) */
+@media (min-width: 320px) and (max-width: 374px) {
 
     .intro2 {
         display: none;
@@ -1863,7 +377,386 @@
 
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+/* Modern iPhones (iPhone X, 11, 12, 13, 14, 15) */
+@media (min-width: 375px) and (max-width: 430px){
+
+    .intro2 {
+        display: none;
+    }
+
+    .intro3 {
+        display: none;
+    }
+
+    body {
+        background-color: #00eaff;
+    }
+
+    .logoname {
+        position: absolute;
+        color: #00eaff;
+        left: 60px;
+        top: 15px;
+        text-align: center;
+        font-family: "Acme", serif;
+    }
+
+    .logo {
+        position: absolute;
+        height: 0px;
+        width: 0px;
+        background-color: #00eaff;
+        border: 2px solid #00eaff;
+        left: 30px;
+        top: 30px;
+        z-index: -1;
+    }
+
+    .line {
+        position: absolute;
+        height: 3px;
+        width: 428px;
+        border: 1px solid white;
+        background-color: white;
+        left: 0px;
+        top: 75px;
+    }
+
+    .aboutme {
+        position: absolute;
+        right: 10px;
+        top: 18px;
+    }
+
+    .Projects {
+        position: absolute;
+        right: 124px;
+        top: 18px;
+    }
+
+    .Home {
+        position: absolute;
+        right: 235px;
+        top: 18px;
+    }
+
+    #button {
+        padding: 5px;
+        color: white;
+        background-color: #00eaff;
+        border: 2px solid #00eaff;
+        font-size: 22px;
+        font-family: "Acme", serif;
+        transition: 0.2s;
+    }
+
+    #button:hover {
+        color: #00eaff;
+        background-color: white;
+    }
+
+    .headshot {
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: 164px;
+        left: 105px;
+    }
+
+
+    .background1 {
+        height: 125px;
+        width: 120px;
+        background-color: #b3b3b3;
+        border: 2px solid #000000;
+        position: absolute;
+        top: 157px;
+        left: 102px;
+        z-index: -1;
+    }
+
+    .background2 {
+        height: 135px;
+        width: 135px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 149px;
+        left: 90px;
+        z-index: -2;
+    }
+
+    #Text {
+        color: white;
+        font-family: "Acme", serif;
+    }
+
+    .hook {
+        position: absolute;
+        font-size: 25px;
+        left: 36px;
+        top: 75px;
+        text-align: left;
+    }
+
+    .blab {
+        text-align: center;
+        position: absolute;
+        font-size: 16px;
+        left: 1px;
+        bottom: 110px;
+    }
+
+    .recruit {
+        position: absolute;
+        left: 90px;
+        bottom: 50px;
+    }
+
+    #button.recruit {
+        padding: 10px;
+        color: white;
+        background-color: #00eaff;
+        border: 2px solid #ffffff;
+        font-size: 15px;
+        font-family: "Acme", serif;
+        transition: 0.2s;
+    }
+
+    #button:hover {
+        color: #00eaff;
+        background-color: white;
+    }
+
+    .selfie {
+        height: 100px;
+        width: 80px;
+        position: absolute;
+        top: 150px;
+        left: 55px;
+        border: 2px black solid;
+    }
+
+    .background3 {
+        height: 110px;
+        width: 90px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 147px;
+        left: 52px;
+        z-index: -2;
+    }
+
+    .ahook {
+        position: absolute;
+        text-align: center;
+        font-size: 40px;
+        left: 175px;
+        top: 70px;
+    }
+
+    .blab2 {
+        text-align: center;
+        position: absolute;
+        font-size: 12px;
+        left: 5px;
+        top: 260px;
+    }
+
+    .blab3 {
+        text-align: center;
+        position: absolute;
+        font-size: 11px;
+        left: 20px;
+        top: 350px;
+    }
+
+    .snake {
+        height: 80px;
+        width: 120px;
+        position: absolute;
+        top: 110px;
+        left: 10px;
+        border: 2px solid #ffffff;
+        transition: 1s;
+    }
+
+    .snake:hover {
+        box-shadow: 0 0 15px 5px #f6f6f6;
+        height: 85px;
+        width: 125px;
+        transform: translateX(-5px)
+    }
+
+    .minigames {
+        height: 80px;
+        width: 120px;
+        position: absolute;
+        bottom: 40px;
+        left: 10px;
+        border: 2px solid #ffffff;
+        transition: 1s;
+    }
+
+    .minigames:hover {
+        box-shadow: 0 0 15px 5px #f6f6f6;
+        height: 85px;
+        width: 125px;
+        transform: translateX(5px)
+    }
+
+
+    .torpedo {
+        height: 80px;
+        width: 120px;
+        position: absolute;
+        top: 230px;
+        right: 10px;
+        border: 2px solid #ffffff;
+        transition: 1s;
+    }
+
+    .torpedo:hover {
+        box-shadow: 0 0 15px 5px #f6f6f6;
+        height: 85px;
+        width: 125px;
+        transform: translateX(5px)
+    }
+
+    .des1 {
+        text-align: center;
+        position: absolute;
+        font-size: 9px;
+        right: 10px;
+        top: 130px;
+    }
+
+    .des3 {
+        text-align: center;
+        position: absolute;
+        font-size: 9px;
+        left: 10px;
+        top: 240px;
+    }
+
+    .des2 {
+        text-align: center;
+        position: absolute;
+        font-size: 9px;
+        right: 5px;
+        bottom: 50px;
+    }
+
+    .social {
+        height: 50px;
+        width: 50px;
+        transition: 1s;
+    }
+
+    .social:hover {
+        transform: translateY(-5px);
+        height: 54px;
+        width: 54px;
+        border-radius: 25px;
+        box-shadow: 0 0 15px 5px #f6f6f6;
+    }
+
+
+    #insta {
+        position: absolute;
+        top: 84px;
+        left: 130px;
+    }
+
+    #github {
+        position: absolute;
+        top: 84px;
+        left: 70px;
+    }
+
+    #linkedin {
+        height: 44px;
+        width: 44px;
+        transition: 1s;
+        position: absolute;
+        top: 88px;
+        left: 20px;
+    }
+
+    #linkedin:hover {
+        transform: translateY(-5px);
+        height: 48px;
+        width: 48px;
+        box-shadow: 0 0 15px 5px #f6f6f6;
+    }
+
+
+    .intro4 {
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        top: 100px;
+        left: 80px;
+    }
+
+    .intro5 {
+        font-size: 10px;
+        text-align: center;
+        position: absolute;
+        top: 160px;
+        left: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 190px;
+        padding: 8px;
+        margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    input[type="text"] {
+        position: absolute;
+        left: 50px;
+        bottom: 190px;
+    }
+
+
+    input[type="email"] {
+        position: absolute;
+        left: 50px;
+        bottom: 147px;
+    }
+
+    .Answer {
+        display: none;
+    }
+
+    .submission {
+        display: none;
+    }
+
+    .Answer2 {
+        position: absolute;
+        left: 20px;
+        bottom: 70px;
+        width: 250px;
+        height: 70px;
+    }
+
+    .submission2 {
+        position: absolute;
+        left: 125px;
+        bottom: 40px;
+    }
+
+}
+
+/* Small tablets & large phones (iPhone Pro Max models, iPads in portrait) */
+@media (min-width: 431px) and (max-width: 768px) {
 
     .intro2 {
         display: none;
@@ -1921,7 +814,7 @@
 
     .Home {
         position: absolute;
-        right: 290px;
+        right: 300px;
         top: 10px;
     }
 
@@ -1941,32 +834,32 @@
     }
 
     .headshot {
-        height: 160px;
-        width: 160px;
+        height: 260px;
+        width: 260px;
         position: absolute;
         top: 224px;
-        left: 135px;
+        left: 90px;
     }
 
 
     .background1 {
-        height: 165px;
-        width: 160px;
+        height: 260px;
+        width: 260px;
         background-color: #b3b3b3;
         border: 2px solid #000000;
         position: absolute;
-        top: 217px;
-        left: 132px;
+        top: 222px;
+        left: 87px;
         z-index: -1;
     }
 
     .background2 {
-        height: 175px;
-        width: 175px;
+        height: 270px;
+        width: 270px;
         background-color: #ffffff;
         position: absolute;
-        top: 209px;
-        left: 120px;
+        top: 217px;
+        left: 77px;
         z-index: -2;
     }
 
@@ -1978,7 +871,7 @@
     .hook {
         position: absolute;
         font-size: 34px;
-        right: 20px;
+        right: 50px;
         top: 125px;
     }
 
@@ -1987,13 +880,13 @@
         position: absolute;
         font-size: 16px;
         right: 30px;
-        top: 390px;
+        top: 490px;
     }
 
     .recruit {
         position: absolute;
         right: 95px;
-        top: 470px;
+        top: 570px;
     }
 
     #button.recruit {
@@ -2012,21 +905,21 @@
     }
 
     .selfie {
-        height: 160px;
-        width: 120px;
+        height: 260px;
+        width: 220px;
         position: absolute;
-        top: 230px;
-        left: 40px;
+        top: 320px;
+        left: 105px;
         border: 2px black solid;
     }
 
     .background3 {
-        height: 170px;
-        width: 140px;
+        height: 270px;
+        width: 240px;
         background-color: #ffffff;
         position: absolute;
-        top: 224px;
-        left: 30px;
+        top: 314px;
+        left: 95px;
         z-index: -2;
     }
 
@@ -2034,7 +927,7 @@
         position: absolute;
         text-align: center;
         font-size: 40px;
-        left: 175px;
+        left: 90px;
         top: 210px;
     }
 
@@ -2043,7 +936,7 @@
         position: absolute;
         font-size: 14px;
         left: 30px;
-        top: 420px;
+        top: 600px;
     }
 
     .blab3 {
@@ -2051,83 +944,83 @@
         position: absolute;
         font-size: 14px;
         left: 30px;
-        top: 540px;
+        top: 690px;
     }
 
     .snake {
         height: 130px;
-        width: 210px;
+        width: 190px;
         position: absolute;
-        top: 160px;
-        left: 20px;
+        top: 150px;
+        left: 115px;
         border: 2px solid #ffffff;
         transition: 1s;
     }
 
     .snake:hover {
         box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
+        height: 135px;
+        width: 195px;
         transform: translateX(-5px)
     }
 
     .minigames {
         height: 130px;
-        width: 210px;
+        width: 190px;
         position: absolute;
-        bottom: 70px;
-        left: 10px;
+        bottom: 100px;
+        left: 115px;
         border: 2px solid #ffffff;
         transition: 1s;
     }
 
     .minigames:hover {
         box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
+        height: 135px;
+        width: 195px;
         transform: translateX(5px)
     }
 
 
     .torpedo {
         height: 130px;
-        width: 210px;
+        width: 190px;
         position: absolute;
-        bottom: 270px;
-        right: 10px;
+        bottom: 380px;
+        left: 115px;
         border: 2px solid #ffffff;
         transition: 1s;
     }
 
     .torpedo:hover {
         box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
+        height: 135px;
+        width: 195px;
         transform: translateX(5px)
     }
 
     .des1 {
         text-align: center;
         position: absolute;
-        font-size: 12px;
-        left: 240px;
-        top: 180px;
+        font-size: 14px;
+        left: 85px;
+        top: 90px;
     }
 
     .des2 {
         text-align: center;
         position: absolute;
         font-size: 15px;
-        left: 245px;
-        bottom: 80px;
+        left: 90px;
+        bottom: 230px;
     }
 
     .des3 {
         text-align: center;
         position: absolute;
-        font-size: 16px;
-        right: 220px;
-        bottom: 270px;
+        font-size: 15px;
+        left: 70px;
+        bottom: 510px;
     }
 
     .social {
@@ -2147,13 +1040,13 @@
 
     #insta {
         position: absolute;
-        top: 120px;
+        top: 160px;
         right: 70px;
     }
 
     #github {
         position: absolute;
-        top: 120px;
+        top: 160px;
         right: 180px;
     }
 
@@ -2162,7 +1055,7 @@
         width: 70px;
         transition: 1s;
         position: absolute;
-        top: 120px;
+        top: 160px;
         right: 290px;
     }
 
@@ -2175,18 +1068,19 @@
 
 
     .intro4 {
+        font-size: 40px;
         text-align: center;
         position: absolute;
-        top: 100px;
-        left: 115px;
+        top: 60px;
+        left: 75px;
     }
 
     .intro5 {
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         position: absolute;
-        top: 180px;
-        left: 0px;
+        top: 200px;
+
     }
 
     input[type="text"],
@@ -2204,14 +1098,14 @@
     input[type="text"] {
         position: absolute;
         left: 90px;
-        bottom: 380px;
+        bottom: 450px;
     }
 
 
     input[type="email"] {
         position: absolute;
         left: 90px;
-        bottom: 330px;
+        bottom: 400px;
     }
 
     .Answer {
@@ -2224,19 +1118,20 @@
 
     .Answer2 {
         position: absolute;
-        left: 55px;
-        bottom: 190px;
-        width: 290px;
+        left: 45px;
+        bottom: 260px;
+        width: 320px;
         height: 130px;
     }
 
     .submission2 {
         position: absolute;
         left: 165px;
-        bottom: 130px;
+        bottom: 200px;
     }
 }
 
+/* iPads in landscape & small laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
 
     .intro2 {
@@ -2612,23 +1507,15 @@
 
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
-
-    .intro2 {
-        display: none;
-    }
-
-    .intro3 {
-        display: none;
-    }
-
+/* Laptops & larger tablets */
+@media (min-width: 1025px) and (max-width: 1440px) {
     body {
         background-color: #00eaff;
     }
 
     .logoname {
         position: absolute;
-        color: #00eaff;
+        color: white;
         left: 60px;
         top: 15px;
         text-align: center;
@@ -2637,11 +1524,11 @@
 
     .logo {
         position: absolute;
-        height: 0px;
-        width: 0px;
+        height: 90px;
+        width: 120px;
         background-color: #00eaff;
-        border: 2px solid #00eaff;
-        left: 30px;
+        border: 2px solid white;
+        left: 40px;
         top: 30px;
         z-index: -1;
     }
@@ -2649,10 +1536,10 @@
     .line {
         position: absolute;
         height: 3px;
-        width: 428px;
+        width: 1275px;
         border: 1px solid white;
         background-color: white;
-        left: 0px;
+        left: 162px;
         top: 75px;
     }
 
@@ -2690,32 +1577,31 @@
     }
 
     .headshot {
-        height: 160px;
-        width: 160px;
+        height: 400px;
+        width: 400px;
         position: absolute;
-        top: 224px;
-        left: 135px;
+        bottom: 180px;
+        left: 167px;
     }
 
-
     .background1 {
-        height: 165px;
-        width: 160px;
+        height: 400px;
+        width: 400px;
         background-color: #b3b3b3;
         border: 2px solid #000000;
         position: absolute;
-        top: 217px;
-        left: 132px;
+        top: 204px;
+        left: 166px;
         z-index: -1;
     }
 
     .background2 {
-        height: 175px;
-        width: 175px;
+        height: 420px;
+        width: 420px;
         background-color: #ffffff;
         position: absolute;
-        top: 209px;
-        left: 120px;
+        top: 195px;
+        left: 150px;
         z-index: -2;
     }
 
@@ -2726,23 +1612,23 @@
 
     .hook {
         position: absolute;
-        font-size: 34px;
-        right: 20px;
-        top: 125px;
+        font-size: 50px;
+        right: 200px;
+        top: 220px;
     }
 
     .blab {
         text-align: center;
         position: absolute;
-        font-size: 16px;
-        right: 30px;
-        top: 390px;
+        font-size: 25px;
+        right: 165px;
+        top: 320px;
     }
 
     .recruit {
         position: absolute;
-        right: 95px;
-        top: 470px;
+        right: 330px;
+        top: 430px;
     }
 
     #button.recruit {
@@ -2761,122 +1647,121 @@
     }
 
     .selfie {
-        height: 160px;
-        width: 120px;
+        height: 400px;
+        width: 320px;
         position: absolute;
-        top: 210px;
-        left: 40px;
+        bottom: 170px;
+        right: 167px;
         border: 2px black solid;
     }
 
     .background3 {
-        height: 170px;
-        width: 140px;
+        height: 420px;
+        width: 350px;
         background-color: #ffffff;
         position: absolute;
-        top: 224px;
-        left: 30px;
+        top: 197px;
+        right: 155px;
         z-index: -2;
     }
 
     .ahook {
         position: absolute;
-        text-align: center;
-        font-size: 40px;
-        left: 175px;
-        top: 210px;
+        font-size: 50px;
+        left: 310px;
+        top: 150px;
     }
 
     .blab2 {
         text-align: center;
         position: absolute;
-        font-size: 14px;
-        left: 30px;
-        top: 420px;
+        font-size: 30px;
+        left: 80px;
+        top: 260px;
     }
 
     .blab3 {
         text-align: center;
         position: absolute;
-        font-size: 14px;
-        left: 30px;
-        top: 540px;
+        font-size: 30px;
+        left: 80px;
+        top: 450px;
     }
 
     .snake {
-        height: 130px;
-        width: 210px;
+        height: 230px;
+        width: 350px;
         position: absolute;
-        top: 160px;
-        left: 20px;
+        bottom: 270px;
+        left: 90px;
         border: 2px solid #ffffff;
         transition: 1s;
     }
 
     .snake:hover {
         box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
+        height: 245px;
+        width: 365px;
         transform: translateX(-5px)
     }
 
     .minigames {
-        height: 130px;
-        width: 210px;
+        height: 230px;
+        width: 350px;
         position: absolute;
-        bottom: 70px;
-        left: 10px;
+        bottom: 270px;
+        right: 530px;
         border: 2px solid #ffffff;
         transition: 1s;
     }
 
     .minigames:hover {
         box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
+        height: 245px;
+        width: 365px;
         transform: translateX(5px)
     }
 
 
     .torpedo {
-        height: 130px;
-        width: 210px;
+        height: 230px;
+        width: 350px;
         position: absolute;
         bottom: 270px;
-        right: 10px;
+        right: 90px;
         border: 2px solid #ffffff;
         transition: 1s;
     }
 
     .torpedo:hover {
         box-shadow: 0 0 15px 5px #f6f6f6;
-        height: 145px;
-        width: 225px;
+        height: 245px;
+        width: 365px;
         transform: translateX(5px)
     }
 
     .des1 {
         text-align: center;
         position: absolute;
-        font-size: 12px;
-        left: 240px;
-        top: 180px;
+        font-size: 17px;
+        left: 115px;
+        bottom: 190px;
     }
 
     .des2 {
         text-align: center;
         position: absolute;
-        font-size: 15px;
-        left: 245px;
-        bottom: 80px;
+        font-size: 17px;
+        left: 605px;
+        bottom: 170px;
     }
 
     .des3 {
         text-align: center;
         position: absolute;
-        font-size: 16px;
-        right: 220px;
-        bottom: 270px;
+        font-size: 17px;
+        right: 95px;
+        bottom: 170px;
     }
 
     .social {
@@ -2897,13 +1782,13 @@
     #insta {
         position: absolute;
         top: 120px;
-        right: 70px;
+        right: 167px;
     }
 
     #github {
         position: absolute;
         top: 120px;
-        right: 180px;
+        right: 260px;
     }
 
     #linkedin {
@@ -2912,7 +1797,7 @@
         transition: 1s;
         position: absolute;
         top: 120px;
-        right: 290px;
+        right: 350px;
     }
 
     #linkedin:hover {
@@ -2922,71 +1807,71 @@
         box-shadow: 0 0 15px 5px #f6f6f6;
     }
 
-
-    .intro4 {
+    .intro2 {
         text-align: center;
         position: absolute;
-        top: 100px;
-        left: 115px;
+        font-size: 50px;
+        right: 535px;
+        top: 70px;
     }
 
-    .intro5 {
-        font-size: 15px;
+    .intro3 {
         text-align: center;
         position: absolute;
-        top: 180px;
-        left: 0px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 220px;
-        padding: 10px;
-        margin: 20px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-size: 16px;
-    }
-
-    input[type="text"] {
-        position: absolute;
-        left: 90px;
-        bottom: 380px;
-    }
-
-
-    input[type="email"] {
-        position: absolute;
-        left: 90px;
-        bottom: 330px;
-    }
-
-    .Answer {
-        display: none;
+        font-size: 20px;
+        right: 449px;
+        top: 220px;
     }
 
     .submission {
+        position: absolute;
+        bottom: 90px;
+        left: 650px;
+    }
+
+    .name {
+        position: absolute;
+        bottom: 410px;
+        left: 610px;
+    }
+
+    .email {
+        position: absolute;
+        bottom: 385px;
+        left: 610px;
+    }
+
+    .Answer {
+        height: 200px;
+        width: 1000px;
+        position: absolute;
+        bottom: 170px;
+        left: 210px;
+
+    }
+
+    .intro4 {
+        display: none;
+    }
+
+    .intro5 {
         display: none;
     }
 
     .Answer2 {
-        position: absolute;
-        left: 55px;
-        bottom: 190px;
-        width: 290px;
-        height: 130px;
+        display: none;
     }
 
     .submission2 {
-        position: absolute;
-        left: 165px;
-        bottom: 130px;
+        display: none;
     }
+
+
+
 
 }
 
+/* Ultra-wide screens & desktops */
 @media (min-width: 1441px){
     body {
         background-color: #00eaff;
